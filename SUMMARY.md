@@ -1,3 +1,6 @@
 # Table of contents
 
-* [Page](README.md)
+* [About Us](README.md)
+
+## Part 1: On-Boarding
+* [사용 방법](On-Boarding/initial-page.md)
