@@ -6,8 +6,7 @@
 * [사용 방법](On-Boarding/initial-page.md)
 
 ## Part 2: Private Research Notes
-### Client
-#### Dongeun
+### Dongeun
 * [main](Dongeun/README.md)
     * [2024-12-07](Dongeun/private/2024.12.07.md)
     * [2024-12-08](Dongeun/private/2024.12.08.md)
@@ -15,25 +14,24 @@
     * [2024-12-11](Dongeun/private/2024.12.11.md)
     * [2024-12-14](Dongeun/private/2024.12.14.md)
 
-#### Juhyeon
+### Juhyeon
 * [main](juhyeon/README.md)
     * [2024-12-11](juhyeon/private/2024-12-11%20Unity%20study.md)
     * [2024-12-13](juhyeon/private/2024-12-13%20Unity%20study.md)
 
-#### Kjinwoo12
+### Kjinwoo12
 * [main](kjinwoo12/README.md)
     * [README](kjinwoo12/private/README.md)
 
-#### minkyoung
+### minkyoung
 * [main](minkyoung/README.md)
     * [README](minkyoung/private/README.md)
 
-#### Yujin
+### Yujin
 * [main](Yujin/Yujin.md)
     * [README](Yujin/private/private.md)
 
-### backend
-#### Hansol 
+### Hansol 
 * [main](Hansol/README.md)
     * [기획을 위한 고민](Hansol/2024-12-17.md)
 
