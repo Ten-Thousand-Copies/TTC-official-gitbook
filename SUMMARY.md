@@ -22,7 +22,7 @@
 
 #### Kjinwoo12
 * [main](kjinwoo12/README.md)
-    * [README](kjinwoo12/private/README.md)
+    * [문서화 및 협업 프로세스 연구](kjinwoo12/private/research_documentation_and_cooperation.md)
 
 #### minkyoung
 * [main](minkyoung/README.md)
