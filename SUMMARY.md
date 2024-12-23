@@ -13,6 +13,7 @@
     * [2024-12-09](Dongeun/private/2024.12.09.md)
     * [2024-12-11](Dongeun/private/2024.12.11.md)
     * [2024-12-14](Dongeun/private/2024.12.14.md)
+    * [2024-12-17 ~ 18](Dongeun/private/2024.12.17~18.md)
 
 ### Juhyeon
 * [main](juhyeon/README.md)
