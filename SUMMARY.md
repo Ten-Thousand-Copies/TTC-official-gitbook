@@ -22,6 +22,7 @@
     * [Unity의 직렬화](juhyeon/private/2024-12-16-1.md)
     * [Unity Transform](juhyeon/private/2024-12-16-2.md)
     * [Camera와 Culling](juhyeon/private/2024-12-17.md)
+    * [Singleton in Unity](juhyeon/private/2024-12-27.md)
 
 ### Kjinwoo12
 * [main](kjinwoo12/README.md)
