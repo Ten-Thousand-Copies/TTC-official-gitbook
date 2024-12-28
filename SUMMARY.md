@@ -21,7 +21,8 @@
 
 ### Kjinwoo12
 * [main](kjinwoo12/README.md)
-    * [문서화 및 협업 프로세스 연구](kjinwoo12/private/research_documentation_and_cooperation.md)
+    * [문서화의 원칙](kjinwoo12/private/principles_for_documentation.md)
+    * [Github 활용 협업 연구](kjinwoo12/private/research_cooperation.md)
 
 ### minkyoung
 * [main](minkyoung/README.md)
