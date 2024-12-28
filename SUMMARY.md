@@ -13,11 +13,16 @@
     * [2024-12-09](Dongeun/private/2024.12.09.md)
     * [2024-12-11](Dongeun/private/2024.12.11.md)
     * [2024-12-14](Dongeun/private/2024.12.14.md)
+    * [2024-12-17 ~ 18](Dongeun/private/2024.12.17~18.md)
 
 ### Juhyeon
 * [main](juhyeon/README.md)
-    * [2024-12-11](juhyeon/private/2024-12-11%20Unity%20study.md)
-    * [2024-12-13](juhyeon/private/2024-12-13%20Unity%20study.md)
+    * [게임 구현 1](juhyeon/private/2024-12-11.md)
+    * [게임 구현 2](juhyeon/private/2024-12-13.md)
+    * [Unity의 직렬화](juhyeon/private/2024-12-16-1.md)
+    * [Unity Transform](juhyeon/private/2024-12-16-2.md)
+    * [Camera와 Culling](juhyeon/private/2024-12-17.md)
+    * [Singleton in Unity](juhyeon/private/2024-12-27.md)
 
 ### Kjinwoo12
 * [main](kjinwoo12/README.md)
