@@ -27,7 +27,8 @@
     * [Unity Transform](juhyeon/private/2024-12-16-2.md)
     * [Camera와 Culling](juhyeon/private/2024-12-17.md)
     * [Singleton in Unity](juhyeon/private/2024-12-27-1.md)
-    * [origin repo와 upstream repo 동기화](jyhyeon/private/2024-12-27-2.md)
+    * [[Git]Origin과 Upstream 동기화](juhyeon/private/2024-12-27-2.md)
+    * [URP 호환성 문제](juhyeon/private/2024-12-29.md)
 
 ### Kjinwoo12
 * [main](kjinwoo12/README.md)
