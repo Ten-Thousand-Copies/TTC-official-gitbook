@@ -14,6 +14,10 @@
     * [2024-12-11](Dongeun/private/2024.12.11.md)
     * [2024-12-14](Dongeun/private/2024.12.14.md)
     * [2024-12-17 ~ 18](Dongeun/private/2024.12.17~18.md)
+    * [Coroutine](Dongeun/private/Coroutine.md)
+    * [DataManager](Dongeun/private/DataManager.md)
+    * [ObjectPooling](Dongeun/private/ObjectPooling.md)
+    * [UnityStudy_2dLighting](Dongeun/private/UnityStudy_2dLighting.md)
 
 ### Juhyeon
 * [main](juhyeon/README.md)
