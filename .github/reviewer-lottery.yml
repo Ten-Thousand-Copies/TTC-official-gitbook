@@ -1,0 +1,10 @@
+groups:
+  - name: devs
+    reviewers: 1
+    internal_reviewers: 1
+    usernames:
+      - "griiim134"
+      - "Kim JinWoo"
+      - "Noong2"
+      - "workminkyoung"
+      - "Yujin Park"
