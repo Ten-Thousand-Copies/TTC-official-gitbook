@@ -3,6 +3,16 @@ name: "Reviewer lottery"
 on:
   pull_request_target:
     types: [opened, ready_for_review, reopened]
+  workflow_dispatch: # for test
+    inputs:
+      is_test:
+        description: 'Is this a test run?'
+        required: true
+        default: 'true'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
 
 jobs:
   test:
