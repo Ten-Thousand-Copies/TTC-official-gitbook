@@ -3,7 +3,9 @@ name: "Reviewer lottery"
 on:
   pull_request_target:
     types: [opened, ready_for_review, reopened]
-
+permissions:
+  pull-requests: write
+  contents: read
 jobs:
   test:
     runs-on: ubuntu-latest
