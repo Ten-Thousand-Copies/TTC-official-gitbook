@@ -25,6 +25,7 @@ jobs:
       id: study-review
       uses: actions/github-script@v7
       with:
+        github-token: ${{ secrets.TOKEN }}
         script: |
           const team = ["griiim134", "Kim JinWoo", "Noong2", "workminkyoung", "Yujin Park"];
           const candidateList = team.filter((e) => e != "${{ github.event.pull_request.user.login }}");
