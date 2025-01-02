@@ -36,6 +36,7 @@ jobs:
     - name: Add Comment
       uses: mshick/add-pr-comment@v2
       with:
+          repo-token: ${{ secrets.TOKEN }}
           message: |
             ${{ steps.study-review.outputs.comment }}
 
