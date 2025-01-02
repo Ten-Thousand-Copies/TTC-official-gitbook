@@ -26,7 +26,7 @@ jobs:
       uses: actions/github-script@v7
       with:
         script: |
-          const teamList = ["griiim134", "Kim JinWoo", "Noong2", "workminkyoung", "Yujin Park"];
+          const team = ["griiim134", "Kim JinWoo", "Noong2", "workminkyoung", "Yujin Park"];
           const candidateList = team.filter((e) => e != "${{ github.event.pull_request.user.login }}");
           const reviewer = candidateList[Math.floor(Math.random() * candidateList.length)];
           const comment = "@${reviewer}님. 리뷰 부탁드립니다!";
