@@ -27,7 +27,7 @@ jobs:
       with:
         github-token: ${{ secrets.TOKEN }}
         script: |
-          const team = ["griiim134", "Kim JinWoo", "Noong2", "workminkyoung", "Yujin Park"];
+          const team = ["griiim134", "kjinwoo12", "Noong2", "workminkyoung", "yujin2625"];
           const candidateList = team.filter((e) => e != "${{ github.event.pull_request.user.login }}");
           const reviewer = candidateList[Math.floor(Math.random() * candidateList.length)];
           const comment = `@${reviewer}님. 리뷰 부탁드립니다!`;
