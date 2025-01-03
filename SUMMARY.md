@@ -37,11 +37,12 @@
 
 ### minkyoung
 * [main](minkyoung/README.md)
-    * [README](minkyoung/private/README.md)
+    * [C++ 스택메모리와 스택프레임](minkyoung/private/cppGameProgrammin_StackMemoryAndStackFrame.md)
+    * [C++ 데이터와 로직](minkyoung/private/cppGameProgramming_DataAndLogic.md)
 
 ### Yujin
 * [main](Yujin/Yujin.md)
-    * [README](Yujin/private/private.md)
+    * [DOTS](yujin/private/Unity_DOTS_Summary.md)
 
 ### Hansol 
 * [main](Hansol/README.md)
