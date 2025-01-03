@@ -2,7 +2,7 @@ name: "Study review"
 
 on:
   pull_request:
-    types: [opened, reopened]
+    types: [opened, reopened, edited]
   workflow_dispatch: # for test
     inputs:
       is_test:
