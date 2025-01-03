@@ -37,12 +37,12 @@ jobs:
           core.setOutput("comment", comment)
           core.setOutput("reviewer", reviewer);
 
-    - name: Add Comment
-      uses: mshick/add-pr-comment@v2.8.2
-      with:
-          repo-token: ${{ github.token }}
-          message: |
-            ${{ steps.study-review.outputs.comment }}
+    #- name: Add Comment
+    #  uses: mshick/add-pr-comment@v2.8.2
+    #  with:
+    #      repo-token: ${{ github.token }}
+    #      message: |
+    #        ${{ steps.study-review.outputs.comment }}
 
     - name: Add Reviewers
       uses: madrapps/add-reviewers@v1
