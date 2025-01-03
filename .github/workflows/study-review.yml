@@ -44,5 +44,5 @@ jobs:
     - name: Add Reviewers
       uses: madrapps/add-reviewers@v1
       with:
-        token: ${{ secrets.PAT_TOKEN }}s
+        token: ${{ secrets.PAT_TOKEN }}
         reviewers: ${{ steps.study-review.outputs.reviewer }}
