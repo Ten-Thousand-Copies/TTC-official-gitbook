@@ -17,7 +17,7 @@ on:
 jobs:
   choose-reviewer:
     runs-on: ubuntu-latest
-    permissions: write-all
+    #permissions: write-all
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -44,5 +44,5 @@ jobs:
     - name: Add Reviewers
       uses: madrapps/add-reviewers@v1
       with:
-        token: ${{ secrets.PAT_TOKEN }}
+        token: ${{ github.token }}
         reviewers: ${{ steps.study-review.outputs.reviewer }}
