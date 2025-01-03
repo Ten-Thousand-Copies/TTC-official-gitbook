@@ -49,5 +49,5 @@ jobs:
     - name: Add Reviewers
       uses: madrapps/add-reviewers@v1
       with:
-        token: ${{ secrets.TOKEN }}
+        token: ${{ github.token }}
         reviewers: ${{ steps.study-review.outputs.reviewer }}
