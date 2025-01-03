@@ -17,9 +17,6 @@ on:
 jobs:
   pick-random-reviewer:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -37,9 +34,8 @@ jobs:
           core.setOutput("reviewer", reviewer);
 
     - name: Add Comment
-      uses: mshick/add-pr-comment@v2
+      uses: mshick/add-pr-comment@v2.8.2
       with:
-          repo-token: ${{ secrets.TOKEN }}
           message: |
             ${{ steps.study-review.outputs.comment }}
 
