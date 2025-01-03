@@ -36,11 +36,12 @@ jobs:
     - name: Add Comment
       uses: mshick/add-pr-comment@v2.8.2
       with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           message: |
             ${{ steps.study-review.outputs.comment }}
 
     - name: Add Reviewers
       uses: madrapps/add-reviewers@v1
       with:
-        token: ${{ secrets.TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
         reviewers: ${{ steps.study-review.outputs.reviewer }}
