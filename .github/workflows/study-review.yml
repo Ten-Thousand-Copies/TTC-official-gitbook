@@ -17,7 +17,6 @@ on:
 jobs:
   choose-reviewer:
     runs-on: ubuntu-latest
-    #permissions: write-all
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -26,6 +25,7 @@ jobs:
       id: study-review
       uses: actions/github-script@v7
       with:
+        github-token: ${{ secrets.PAT_TOKEN }}
         script: |
           const team = ["griiim134", "kjinwoo12", "Noong2", "workminkyoung", "yujin2625"];
           const candidateList = team.filter((e) => e != "${{ github.event.pull_request.user.login }}");
@@ -34,15 +34,15 @@ jobs:
           core.setOutput("comment", comment)
           core.setOutput("reviewer", reviewer);
 
-    #- name: Add Comment
-    #  uses: mshick/add-pr-comment@v2.8.2
-    #  with:
-    #      repo-token: ${{ github.token }}
-    #      message: |
-    #        ${{ steps.study-review.outputs.comment }}
+    - name: Add Comment
+      uses: mshick/add-pr-comment@v2.8.2
+      with:
+          repo-token: ${{ secrets.PAT_TOKEN }}
+          message: |
+            ${{ steps.study-review.outputs.comment }}
 
     - name: Add Reviewers
       uses: madrapps/add-reviewers@v1
       with:
-        token: ${{ github.token }}
+        token: ${{ secrets.PAT_TOKEN }}s
         reviewers: ${{ steps.study-review.outputs.reviewer }}
