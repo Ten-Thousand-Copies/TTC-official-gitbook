@@ -3,6 +3,8 @@ name: "Study review"
 on:
   pull_request:
     types: [opened, reopened, edited]
+    branches:
+      - main
   workflow_dispatch: # for test
     inputs:
       is_test:
