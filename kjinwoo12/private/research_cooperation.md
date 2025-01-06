@@ -99,29 +99,29 @@ Github를 활용한 레벨 2의 조건을 만족하는 프로세스를 제안한
 
 아래는 기획안을 공유하고 구체적인 요구사항을 도출하며 수정된 내용을 지속적으로 업데이트하는 프로세스다.
 
-1. 기획자는 Todo에 카드를 만들고 기획안을 공유한다.
 ![img](/kjinwoo12/assets/images/research_cooperation/2.png)
 ![img](/kjinwoo12/assets/images/research_cooperation/3.png)
+1\. 기획자는 Todo에 카드를 만들고 기획안을 공유한다.
 프로젝트 탭에 프로젝트 목록을 보면 TO-DO list를 찾을 수 있다.
 
-2. 카드를 클릭해 창을 열고 Assignees에 기획 담당자 본인과 개발, 아트 담당자를 추가한다..
 ![img](/kjinwoo12/assets/images/research_cooperation/4.png)
+2\. 카드를 클릭해 창을 열고 Assignees에 담당자를 추가한다.
 
-3. Draft 상태의 카드를 적절한 Repository의 Issue로 전환한다
 ![img](/kjinwoo12/assets/images/research_cooperation/5.png)
 ![img](/kjinwoo12/assets/images/research_cooperation/6.png)
+3\. Draft 상태의 카드를 적절한 Repository의 Issue로 전환한다
 
-4. 담당자들은 공유된 기획안을 보고 구체적인 요구사항을 도출한다. 도출한 요구사항은 Comment에 정리한다. 구체적으로 어떤 기능이 필요한지, 어떤 아트 리소스가 필요한지 작성한다.
-이 과정에서 아트, 개발 담당자들의 여러 의견이 공유될 수 있다.
 ![img](/kjinwoo12/assets/images/research_cooperation/7.png)
+4\. 담당자들은 공유된 기획안을 보고 구체적인 요구사항을 도출한다. 도출한 요구사항은 Comment에 정리한다. 구체적으로 어떤 기능이 필요한지, 어떤 아트 리소스가 필요한지 작성한다.
+이 과정에서 아트, 개발 담당자들의 여러 의견이 공유될 수 있다.
 
-5. 개발 담당자는 개발을 시작하기 전 반드시 이슈에서 브랜치를 설정한다. 브랜치 생성 규칙은 해당 레포 위키 참조. 만약 위키가 없거나 브랜치 생성 규칙이 별도로 존재하지 않는다면 기본적으로 git-flow를 따른다.
 ![img](/kjinwoo12/assets/images/research_cooperation/8.png)
+5\. 개발 담당자는 개발을 시작하기 전 반드시 이슈에서 브랜치를 설정한다. 브랜치 생성 규칙은 해당 레포 위키 참조. 만약 위키가 없거나 브랜치 생성 규칙이 별도로 존재하지 않는다면 기본적으로 github-flow를 따른다.
 
-6. 공유할 파일은 이슈에 반드시 업로드되어야 한다.
+6\. 공유할 파일은 이슈에 반드시 업로드되어야 한다.
 만약 다른 플랫폼을 통해 파일을 공유받았으면, 파일을 찾기 쉽게 이슈에 업로드를 해야한다.
 
-7. 이슈가 발생하면 코멘트에 관련 내용을 업데이트한다. 
+7\. 이슈가 발생하면 코멘트에 관련 내용을 업데이트한다. 
 
 #### Trello 활용은?
 ![img](/kjinwoo12/assets/images/research_cooperation/1.png)
