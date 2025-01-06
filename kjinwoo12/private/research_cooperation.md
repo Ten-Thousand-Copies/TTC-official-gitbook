@@ -104,7 +104,7 @@ Github를 활용한 레벨 2의 조건을 만족하는 프로세스를 제안한
 ![img](/kjinwoo12/assets/images/research_cooperation/3.png)
 프로젝트 탭에 프로젝트 목록을 보면 TO-DO list를 찾을 수 있다.
 
-2. 카드를 클릭해 창을 열고 Assignees에 기획 담당자 본인과 개발, 아트 담당자를 추가한다..
+2. 카드를 클릭해 창을 열고 Assignees에 담당자를 추가한다.
 ![img](/kjinwoo12/assets/images/research_cooperation/4.png)
 
 3. Draft 상태의 카드를 적절한 Repository의 Issue로 전환한다
