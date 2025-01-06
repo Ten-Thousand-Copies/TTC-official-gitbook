@@ -101,21 +101,26 @@ Github를 활용한 레벨 2의 조건을 만족하는 프로세스를 제안한
 
 ![img](/kjinwoo12/assets/images/research_cooperation/2.png)
 ![img](/kjinwoo12/assets/images/research_cooperation/3.png)
+
 1\. 기획자는 Todo에 카드를 만들고 기획안을 공유한다.
 프로젝트 탭에 프로젝트 목록을 보면 TO-DO list를 찾을 수 있다.
 
 ![img](/kjinwoo12/assets/images/research_cooperation/4.png)
+
 2\. 카드를 클릭해 창을 열고 Assignees에 담당자를 추가한다.
 
 ![img](/kjinwoo12/assets/images/research_cooperation/5.png)
 ![img](/kjinwoo12/assets/images/research_cooperation/6.png)
+
 3\. Draft 상태의 카드를 적절한 Repository의 Issue로 전환한다
 
 ![img](/kjinwoo12/assets/images/research_cooperation/7.png)
+
 4\. 담당자들은 공유된 기획안을 보고 구체적인 요구사항을 도출한다. 도출한 요구사항은 Comment에 정리한다. 구체적으로 어떤 기능이 필요한지, 어떤 아트 리소스가 필요한지 작성한다.
 이 과정에서 아트, 개발 담당자들의 여러 의견이 공유될 수 있다.
 
 ![img](/kjinwoo12/assets/images/research_cooperation/8.png)
+
 5\. 개발 담당자는 개발을 시작하기 전 반드시 이슈에서 브랜치를 설정한다. 브랜치 생성 규칙은 해당 레포 위키 참조. 만약 위키가 없거나 브랜치 생성 규칙이 별도로 존재하지 않는다면 기본적으로 github-flow를 따른다.
 
 6\. 공유할 파일은 이슈에 반드시 업로드되어야 한다.
@@ -140,19 +145,23 @@ Trello에서 지원하는 기능 중 개발에 필요한 모든 기능은 이미
 
 이것은 마일스톤과 릴리즈 페이지를 활용한 방법으로 프로세스를 제안한다.
 
-1. PM이 마일스톤을 생성하고 팀 전체적인 목표를 설정한다.
 ![img](/kjinwoo12/assets/images/research_cooperation/12.png)
 ![img](/kjinwoo12/assets/images/research_cooperation/14.png)
 ![img](/kjinwoo12/assets/images/research_cooperation/13.png)
 
-2. `# 요구사항 관리(REQM) 프로세스`에서 마일스톤에 맞는 이슈 카드를 생성하고 개발을 진행한다. 이슈 카드에서는 마일스톤을 설정해준다.
+1. PM이 마일스톤을 생성하고 팀 전체적인 목표를 설정한다.
+
 ![img](/kjinwoo12/assets/images/research_cooperation/15.png)
 
-3. 완료한 작업은 Done으로 옮긴다. 옮겨진 이슈는 자동으로 Close된다.
+2. `# 요구사항 관리(REQM) 프로세스`에서 마일스톤에 맞는 이슈 카드를 생성하고 개발을 진행한다. 이슈 카드에서는 마일스톤을 설정해준다.
+
 ![img](/kjinwoo12/assets/images/research_cooperation/16.png)
 
-4. Close 된 이슈에 따라 마일스톤의 진행도를 확인할 수 있다.
+3. 완료한 작업은 Done으로 옮긴다. 옮겨진 이슈는 자동으로 Close된다.
+
 ![img](/kjinwoo12/assets/images/research_cooperation/17.png)
+
+4. Close 된 이슈에 따라 마일스톤의 진행도를 확인할 수 있다.
 
 5. 완료된 마일스톤은 Close 처리한다. 단, 마일스톤의 Close 처리는 릴리즈와 함께 진행하는 것을 권장한다.
 
@@ -163,13 +172,16 @@ Trello에서 지원하는 기능 중 개발에 필요한 모든 기능은 이미
 소규모 개발팀에 맞게 구체적으로 예시를 들자면 리소스 제작과 개발을 포함한 Feature 일정 관리다.
 
 ![img](/kjinwoo12/assets/images/research_cooperation/9.png)
+
 로드맵 탭에 Data fields를 위처럼 Start Date와 End Date로 설정하면, 카드에서 설정한 시작 날짜와 종료 날짜를 확인할 수 있다.
 
 ![img](/kjinwoo12/assets/images/research_cooperation/10.png)
+
 이슈 카드에서 날짜를 설정할 수 있다.
 
 프로젝트를 진행하다보면 리소스 제작과 개발 일정, 제작된 리소스를 적용해 Feature를 완성하는 일정을 별개로 관리하는 상황이 생길 수 있다.
 그럴 때는 아래처럼 새로운 카드를 추가해 링크를 연결하고 일정을 관리할 수 있다.
+
 ![img](/kjinwoo12/assets/images/research_cooperation/11.png)
 
 ## 공급자 계약 관리(SAM) 프로세스
